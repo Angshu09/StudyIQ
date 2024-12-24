@@ -5,8 +5,7 @@ import SearchBox from "../SearchBox/SearchBox";
 import { Context } from "../../Context/Context";
 
 export default function Home() {
-  const { showResult, recent, resultData, loading, responseData } =
-    useContext(Context);
+  const { showResult, recent, resultData, loading, responseData } = useContext(Context);
 
   return (
     <div className="flex-1 min-h-[100vh] relative font-custom px-4 sm:px-5 flex flex-col justify-between">
@@ -41,7 +40,7 @@ export default function Home() {
             </div>
           </div>
         ) : (
-          <div className="max-w-[900px] max-h-[65vh] m-auto text-md overflow-y-scroll hide-scrollbar">
+          <div className="max-w-[900px] max-h-[76vh] md:max-h-[66vh] m-auto text-md overflow-y-scroll hide-scrollbar">
             <div className="flex gap-3 sm:gap-5 items-center mb-6">
               <img
                 className="w-[30px] sm:w-[40px] rounded-full"
