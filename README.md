@@ -56,12 +56,12 @@ StudyIQ/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/studyIQ.git
+   git clone https://github.com/Angshu09/StudyIQ.git
    ```
 
 2. **Navigate to the Project Directory**
    ```bash
-   cd studyIQ
+   cd StudyIQ
    ```
 
 3. **Install Dependencies**
@@ -71,10 +71,10 @@ StudyIQ/
 
 4. **Start the Development Server**
    ```bash
-   npm start
+   npm run dev
    ```
 
-5. Open your browser and navigate to `http://localhost:3000` to explore StudyIQ.
+5. Open your browser and navigate to `http://localhost:5173/` to explore StudyIQ.
 
 ## 📸 Screenshots
 
